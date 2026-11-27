@@ -1,0 +1,14 @@
+name: ButterflyCosmetic
+version: 1.1.0
+main: com.ritamx.butterfly.ButterflyCosmetic
+api-version: '26.2'
+author: RitamX
+commands:
+  butterfly:
+    description: Toggle the decorative butterfly particle effect.
+    usage: /butterfly
+    permission: butterflycosmetic.use
+permissions:
+  butterflycosmetic.use:
+    description: Allows use of /butterfly.
+    default: true
